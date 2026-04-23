@@ -1,0 +1,128 @@
+GIT BASIC WORKFLOW – PYTHON SOFTPLC PROJECT
+
+Check what changed in project:
+
+git status
+
+Shows modified files, new files, staged files, and branch status.
+
+
+Add file to staging area:
+
+git add testGit.txt
+
+Add all files:
+
+git add .
+
+Meaning: prepare files before commit.
+
+
+Commit changes locally:
+
+git commit -m "Add testGit.txt example file"
+
+Example professional commit messages:
+
+git commit -m "Add SoftPLC scan cycle execution loop"
+git commit -m "Refactor main OB execution structure"
+git commit -m "Improve PLC timing stability"
+git commit -m "Add hierarchical tag memory structure"
+git commit -m "Implement retain variable manager"
+git commit -m "Add global tag initialization"
+git commit -m "Add Modbus IO thread support"
+git commit -m "Improve Modbus register mapping"
+git commit -m "Fix Modbus client synchronization issue"
+git commit -m "Add Web HMI server integration"
+git commit -m "Implement tag binding for HMI interface"
+git commit -m "Improve frontend update performance"
+git commit -m "Implement Siemens-style OB execution architecture"
+git commit -m "Separate runtime core from application logic"
+git commit -m "Add structured PLC project layout"
+
+Meaning: create project snapshot in history.
+
+
+Push changes to GitHub:
+
+git push
+
+Uploads commits to remote repository.
+
+
+Download latest version from GitHub:
+
+git pull
+
+Useful when working from another PC.
+
+
+Show commit history:
+
+git log
+
+Displays timeline of project changes.
+
+
+Typical daily workflow:
+
+git status
+git add .
+git commit -m "Describe what changed"
+git push
+
+
+Example real workflow:
+
+git status
+git add testGit.txt
+git commit -m "Add testGit.txt example file"
+git push
+
+
+Git workflow concept:
+
+Working directory
+↓
+git add
+↓
+Staging area
+↓
+git commit
+↓
+Local repository
+↓
+git push
+↓
+GitHub
+
+
+PLC analogy:
+
+edit variable
+↓
+buffer
+↓
+write DB
+↓
+download to PLC
+
+
+Good commit message examples:
+
+Add retain manager
+Fix Modbus timeout issue
+Refactor tag tree structure
+Add Web HMI binding layer
+Improve PLC scan cycle timing
+
+
+Avoid messages like:
+
+update
+fix
+changes
+test
+
+
+Clear commit messages make your SoftPLC project look like a professional automation runtime platform on GitHub.
