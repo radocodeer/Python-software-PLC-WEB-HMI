@@ -1,0 +1,574 @@
+2026-04-22 16:39:59.699 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:40:00.003 | WARNING  | runtime.plc:run:220 - Scan over time: 0.3039s
+2026-04-22 16:40:00.718 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:40:01.681 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:40:01.759 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0775s
+2026-04-22 16:40:02.720 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:40:03.732 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:40:04.708 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:40:04.786 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0781s
+2026-04-22 16:40:05.717 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:40:05.795 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0783s
+2026-04-22 16:40:06.146 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:40:06.206 | INFO     | webServer.web_server:plc_command:129 - value: 77
+2026-04-22 16:40:06.744 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:40:07.682 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:40:07.775 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0931s
+2026-04-22 16:40:08.775 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:40:08.853 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0783s
+2026-04-22 16:40:09.712 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:40:09.790 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0779s
+2026-04-22 16:40:10.689 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:40:10.689 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:40:10.749 | INFO     | webServer.web_server:plc_command:129 - value: 77
+2026-04-22 16:40:10.811 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1224s
+2026-04-22 16:40:11.708 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:40:11.769 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0607s
+2026-04-22 16:40:12.677 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:40:12.738 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0615s
+2026-04-22 16:40:13.357 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:40:13.385 | INFO     | webServer.web_server:plc_command:129 - value: 77
+2026-04-22 16:40:13.691 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:40:14.684 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:40:15.679 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:40:16.711 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:40:16.786 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0753s
+2026-04-22 16:40:17.288 | INFO     | runtime.memory.retain:save:81 - Retain memory saved
+2026-04-22 16:40:17.346 | INFO     | runtime.io.modbusMain:stop:136 - Modbus I/O thread stopped
+2026-04-22 16:40:17.347 | INFO     | runtime.plc:stop:111 - PLC STOP
+2026-04-22 16:42:34.859 | INFO     | runtime.io.modbusMain:__init__:14 - Connected to S7-1200 Modbus server at 169.254.167.10
+2026-04-22 16:42:34.859 | INFO     | runtime.plc:__init__:53 - PLC CORE initialized
+2026-04-22 16:42:34.860 | INFO     | __main__:main:21 - PLC State is: STOP
+2026-04-22 16:42:34.862 | INFO     | runtime.plc:run:178 - PLC runtime started
+2026-04-22 16:42:48.386 | INFO     | runtime.plc:start:60 - PLC START sequence
+2026-04-22 16:42:48.571 | INFO     | runtime.memory.retain:load:116 - Retain memory restored
+2026-04-22 16:42:48.678 | INFO     | runtime.io.modbusMain:start:125 - Modbus I/O thread started
+2026-04-22 16:42:48.754 | INFO     | runtime.plc:start:76 - Modbus I/O ready — first read OK
+2026-04-22 16:42:48.786 | INFO     | runtime.plc:start:87 - PLC → RUN state
+2026-04-22 16:42:49.290 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:42:50.315 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:42:51.304 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:42:52.313 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:42:52.389 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0767s
+2026-04-22 16:42:53.289 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:42:53.624 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:42:53.670 | INFO     | webServer.web_server:plc_command:129 - value: 66
+2026-04-22 16:42:54.345 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:42:55.342 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:42:55.479 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1374s
+2026-04-22 16:42:56.304 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:42:57.343 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:42:58.334 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:42:58.410 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0759s
+2026-04-22 16:42:59.297 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:42:59.387 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0906s
+2026-04-22 16:43:00.291 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:00.351 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0608s
+2026-04-22 16:43:01.219 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:43:01.249 | INFO     | webServer.web_server:plc_command:129 - value: 10
+2026-04-22 16:43:01.370 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:01.493 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1232s
+2026-04-22 16:43:02.333 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:03.312 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:04.330 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:04.451 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1208s
+2026-04-22 16:43:05.292 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:05.368 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0763s
+2026-04-22 16:43:06.298 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:07.309 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:08.307 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:09.331 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:10.335 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:10.395 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0604s
+2026-04-22 16:43:11.299 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:11.361 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0625s
+2026-04-22 16:43:12.335 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:13.339 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:14.289 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:14.351 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0612s
+2026-04-22 16:43:15.335 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:16.328 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:17.334 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:17.606 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:43:17.666 | INFO     | webServer.web_server:plc_command:129 - value: 5
+2026-04-22 16:43:18.334 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:19.300 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:20.322 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:21.315 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:22.299 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:23.301 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:24.325 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:25.344 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:26.286 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:27.306 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:27.383 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0767s
+2026-04-22 16:43:28.293 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:29.288 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:30.299 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:31.302 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:31.438 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1365s
+2026-04-22 16:43:32.289 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:33.106 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:43:33.136 | INFO     | webServer.web_server:plc_command:129 - value: 65535
+2026-04-22 16:43:33.287 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:34.294 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:34.355 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0619s
+2026-04-22 16:43:35.315 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:36.327 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:36.388 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0613s
+2026-04-22 16:43:37.294 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:38.309 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:38.385 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0758s
+2026-04-22 16:43:39.307 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:39.383 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0762s
+2026-04-22 16:43:40.332 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:43:41.305 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:41.366 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0611s
+2026-04-22 16:43:41.547 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:43:41.593 | INFO     | webServer.web_server:plc_command:129 - value: 0
+2026-04-22 16:43:42.338 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:43.316 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:44.325 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:43:44.401 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0762s
+2026-04-22 16:43:45.334 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:45.394 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0603s
+2026-04-22 16:43:46.334 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:47.335 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:48.307 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:43:49.312 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:49.419 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1069s
+2026-04-22 16:43:50.307 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:51.329 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:52.293 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:53.295 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:54.325 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:43:54.843 | INFO     | runtime.memory.retain:save:81 - Retain memory saved
+2026-04-22 16:43:54.852 | INFO     | runtime.io.modbusMain:stop:136 - Modbus I/O thread stopped
+2026-04-22 16:43:54.852 | INFO     | runtime.plc:stop:111 - PLC STOP
+2026-04-22 16:44:08.687 | INFO     | runtime.io.modbusMain:__init__:14 - Connected to S7-1200 Modbus server at 169.254.167.10
+2026-04-22 16:44:08.688 | INFO     | runtime.plc:__init__:53 - PLC CORE initialized
+2026-04-22 16:44:08.688 | INFO     | __main__:main:21 - PLC State is: STOP
+2026-04-22 16:44:08.691 | INFO     | runtime.plc:run:178 - PLC runtime started
+2026-04-22 16:46:05.708 | INFO     | runtime.memory.retain:save:81 - Retain memory saved
+2026-04-22 16:46:05.712 | INFO     | runtime.io.modbusMain:stop:136 - Modbus I/O thread stopped
+2026-04-22 16:46:05.712 | INFO     | runtime.plc:stop:111 - PLC STOP
+2026-04-22 16:46:11.534 | INFO     | runtime.io.modbusMain:__init__:14 - Connected to S7-1200 Modbus server at 169.254.167.10
+2026-04-22 16:46:11.535 | INFO     | runtime.plc:__init__:53 - PLC CORE initialized
+2026-04-22 16:46:11.536 | INFO     | __main__:main:21 - PLC State is: STOP
+2026-04-22 16:46:11.538 | INFO     | runtime.plc:run:178 - PLC runtime started
+2026-04-22 16:46:29.013 | INFO     | runtime.plc:start:60 - PLC START sequence
+2026-04-22 16:46:29.135 | INFO     | runtime.memory.retain:load:116 - Retain memory restored
+2026-04-22 16:46:29.305 | INFO     | runtime.io.modbusMain:start:125 - Modbus I/O thread started
+2026-04-22 16:46:29.351 | INFO     | runtime.plc:start:76 - Modbus I/O ready — first read OK
+2026-04-22 16:46:29.381 | INFO     | runtime.plc:start:87 - PLC → RUN state
+2026-04-22 16:46:40.618 | INFO     | webServer.web_server:plc_command:79 - cmd: toggle
+2026-04-22 16:46:40.650 | INFO     | webServer.web_server:plc_command:80 - path: psa.enable
+2026-04-22 16:46:40.756 | INFO     | webServer.web_server:plc_command:81 - value: False
+2026-04-22 16:46:40.956 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [False, False, False, False, False, False, False, False]
+2026-04-22 16:46:41.902 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:46:41.963 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0614s
+2026-04-22 16:46:42.178 | INFO     | webServer.web_server:plc_command:128 - path: io.Aoutputs_word
+2026-04-22 16:46:42.208 | INFO     | webServer.web_server:plc_command:129 - value: 8
+2026-04-22 16:46:42.941 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:46:43.894 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:46:44.902 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:46:44.979 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0768s
+2026-04-22 16:46:45.882 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:46:46.892 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:46:46.953 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0611s
+2026-04-22 16:46:47.916 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:46:48.912 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:46:48.973 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0617s
+2026-04-22 16:46:49.656 | INFO     | runtime.memory.retain:save:81 - Retain memory saved
+2026-04-22 16:46:49.839 | INFO     | runtime.io.modbusMain:stop:136 - Modbus I/O thread stopped
+2026-04-22 16:46:49.884 | INFO     | runtime.plc:stop:111 - PLC STOP
+2026-04-22 16:46:51.557 | INFO     | runtime.memory.retain:save:81 - Retain memory saved
+2026-04-22 16:46:51.559 | INFO     | runtime.io.modbusMain:stop:136 - Modbus I/O thread stopped
+2026-04-22 16:46:51.560 | INFO     | runtime.plc:stop:111 - PLC STOP
+2026-04-22 16:50:44.382 | INFO     | runtime.io.modbusMain:__init__:14 - Connected to S7-1200 Modbus server at 169.254.167.10
+2026-04-22 16:50:44.383 | INFO     | runtime.plc:__init__:53 - PLC CORE initialized
+2026-04-22 16:50:44.383 | INFO     | __main__:main:21 - PLC State is: STOP
+2026-04-22 16:50:44.384 | INFO     | runtime.plc:run:178 - PLC runtime started
+2026-04-22 16:51:30.636 | INFO     | runtime.plc:start:60 - PLC START sequence
+2026-04-22 16:51:30.776 | INFO     | runtime.memory.retain:load:116 - Retain memory restored
+2026-04-22 16:51:30.856 | INFO     | runtime.io.modbusMain:start:125 - Modbus I/O thread started
+2026-04-22 16:51:30.933 | INFO     | runtime.plc:start:76 - Modbus I/O ready — first read OK
+2026-04-22 16:51:30.996 | INFO     | runtime.plc:start:87 - PLC → RUN state
+2026-04-22 16:51:31.521 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:32.506 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:33.531 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:34.514 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:35.511 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:35.572 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0609s
+2026-04-22 16:51:36.500 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:37.555 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:38.517 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:38.579 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0625s
+2026-04-22 16:51:39.522 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:40.545 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:41.505 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:41.567 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0622s
+2026-04-22 16:51:42.497 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:43.517 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:51:44.526 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:51:45.531 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:51:45.608 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0763s
+2026-04-22 16:51:46.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:51:46.628 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0934s
+2026-04-22 16:51:47.518 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:51:48.500 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:51:49.520 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:51:50.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:51:51.508 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:52.543 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:52.605 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0624s
+2026-04-22 16:51:53.502 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:53.564 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0620s
+2026-04-22 16:51:54.509 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:55.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:56.506 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:51:57.542 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:57.617 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0754s
+2026-04-22 16:51:58.533 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:58.596 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0632s
+2026-04-22 16:51:59.508 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:51:59.617 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1095s
+2026-04-22 16:52:00.504 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:01.519 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:02.549 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:03.540 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:04.543 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:04.605 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0617s
+2026-04-22 16:52:05.554 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:06.540 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:06.601 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0608s
+2026-04-22 16:52:07.531 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:07.592 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0611s
+2026-04-22 16:52:08.563 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:09.527 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:10.519 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:11.534 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:12.582 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:13.542 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:14.532 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:15.520 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:16.542 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:16.649 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1075s
+2026-04-22 16:52:17.547 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:18.518 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:19.538 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:20.544 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:21.502 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:22.499 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:23.499 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:24.518 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:25.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:26.508 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:27.542 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:27.650 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1080s
+2026-04-22 16:52:28.549 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:29.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:30.536 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:31.536 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:32.537 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:33.545 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:34.506 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:35.524 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:36.533 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:37.503 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:38.525 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:39.539 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:40.508 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:40.568 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0607s
+2026-04-22 16:52:41.546 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:42.550 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:43.524 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:43.601 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0768s
+2026-04-22 16:52:44.539 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:45.636 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:46.532 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:52:47.499 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:48.519 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:49.521 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:49.582 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0617s
+2026-04-22 16:52:50.523 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:52:50.585 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0617s
+2026-04-22 16:52:51.500 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:51.561 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0610s
+2026-04-22 16:52:52.503 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:53.513 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:53.575 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0626s
+2026-04-22 16:52:54.518 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:55.520 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:56.527 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:52:57.518 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:58.553 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:52:58.615 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0624s
+2026-04-22 16:52:59.541 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:00.512 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:01.534 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:02.519 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:03.541 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:04.501 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:05.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:06.548 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:07.537 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:08.525 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:09.496 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:10.546 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:11.516 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:12.530 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:12.605 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0753s
+2026-04-22 16:53:13.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:13.643 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1087s
+2026-04-22 16:53:14.553 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:15.574 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:16.503 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:17.537 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:17.599 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0617s
+2026-04-22 16:53:18.524 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:19.530 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:20.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:21.551 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:22.509 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:23.545 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:24.501 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:25.538 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:26.543 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:26.620 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0771s
+2026-04-22 16:53:27.557 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:27.618 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0618s
+2026-04-22 16:53:28.553 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:28.613 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0606s
+2026-04-22 16:53:29.508 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:30.506 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:30.568 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0629s
+2026-04-22 16:53:31.524 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:32.524 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:33.529 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:34.500 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:34.576 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0760s
+2026-04-22 16:53:35.565 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:36.545 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:36.607 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0628s
+2026-04-22 16:53:37.518 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:38.525 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:39.528 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:39.589 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0612s
+2026-04-22 16:53:40.529 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:41.544 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:42.546 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:43.521 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:43.582 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0616s
+2026-04-22 16:53:44.540 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:45.512 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:46.546 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:53:46.607 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0611s
+2026-04-22 16:53:47.514 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:47.575 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0613s
+2026-04-22 16:53:48.550 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:48.612 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0619s
+2026-04-22 16:53:49.555 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:49.616 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0613s
+2026-04-22 16:53:50.554 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:53:50.648 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0946s
+2026-04-22 16:53:51.499 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:51.561 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0627s
+2026-04-22 16:53:52.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:53.549 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:53.628 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0787s
+2026-04-22 16:53:54.537 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:55.545 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:56.509 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:53:57.496 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:57.573 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0769s
+2026-04-22 16:53:58.555 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:53:59.508 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:00.501 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:01.534 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:01.596 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0630s
+2026-04-22 16:54:02.533 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:03.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:04.510 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:05.553 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:05.616 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0630s
+2026-04-22 16:54:06.544 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:07.527 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:07.620 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0922s
+2026-04-22 16:54:08.530 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:08.608 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0777s
+2026-04-22 16:54:09.531 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:10.546 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:11.533 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:11.595 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0615s
+2026-04-22 16:54:12.507 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:13.524 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:14.525 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:15.516 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:15.579 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0636s
+2026-04-22 16:54:16.551 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:17.530 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:18.551 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:19.573 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:20.524 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:21.591 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:22.534 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:22.614 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0796s
+2026-04-22 16:54:23.539 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:24.554 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:25.555 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:26.533 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:27.507 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:28.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:28.614 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0789s
+2026-04-22 16:54:29.498 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:30.532 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:31.554 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:32.531 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:32.609 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0782s
+2026-04-22 16:54:33.557 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:34.510 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:34.572 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0620s
+2026-04-22 16:54:35.514 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:36.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:37.519 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:38.504 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:39.506 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:40.545 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:41.502 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:41.580 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0776s
+2026-04-22 16:54:42.536 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:42.598 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0625s
+2026-04-22 16:54:43.511 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:43.573 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0621s
+2026-04-22 16:54:44.514 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:45.581 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:46.523 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:54:46.585 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0617s
+2026-04-22 16:54:47.530 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:47.590 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0600s
+2026-04-22 16:54:48.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:48.597 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0622s
+2026-04-22 16:54:49.495 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:50.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:54:50.576 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0615s
+2026-04-22 16:54:51.547 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:52.536 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:52.598 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0624s
+2026-04-22 16:54:53.555 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:53.617 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0625s
+2026-04-22 16:54:54.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:55.549 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:55.610 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0609s
+2026-04-22 16:54:56.556 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:54:56.619 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0622s
+2026-04-22 16:54:57.498 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:57.560 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0620s
+2026-04-22 16:54:58.546 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:54:59.507 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:00.529 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:01.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:01.592 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0772s
+2026-04-22 16:55:02.537 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:03.541 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:04.544 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:05.499 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:05.574 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0755s
+2026-04-22 16:55:06.526 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:06.604 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0777s
+2026-04-22 16:55:07.529 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:07.592 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0634s
+2026-04-22 16:55:08.537 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:09.546 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:09.656 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1092s
+2026-04-22 16:55:10.525 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:10.588 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0629s
+2026-04-22 16:55:11.544 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:12.536 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:13.510 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:14.503 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:15.509 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:16.526 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:17.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:17.624 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1082s
+2026-04-22 16:55:18.508 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:19.517 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:20.498 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:21.519 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:22.553 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:22.645 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0924s
+2026-04-22 16:55:23.545 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:24.538 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:25.500 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:25.579 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0786s
+2026-04-22 16:55:26.521 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:27.531 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:28.521 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:28.613 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0919s
+2026-04-22 16:55:29.544 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:30.555 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:31.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:31.699 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1844s
+2026-04-22 16:55:32.522 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:33.533 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:33.626 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0932s
+2026-04-22 16:55:34.557 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:34.634 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0765s
+2026-04-22 16:55:35.516 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:36.508 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:37.521 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:38.556 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:39.529 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:39.622 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0933s
+2026-04-22 16:55:40.506 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:41.549 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:41.612 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0622s
+2026-04-22 16:55:42.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:43.537 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:44.498 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:45.509 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:45.586 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0773s
+2026-04-22 16:55:46.515 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:55:46.576 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0610s
+2026-04-22 16:55:47.517 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:48.521 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:48.583 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0619s
+2026-04-22 16:55:49.541 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:49.634 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0926s
+2026-04-22 16:55:50.527 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:55:50.618 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0917s
+2026-04-22 16:55:51.544 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:52.504 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:52.567 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0623s
+2026-04-22 16:55:53.556 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:54.512 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:54.574 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0624s
+2026-04-22 16:55:55.518 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:56.513 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:55:57.535 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:58.547 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:55:59.506 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:56:00.502 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:56:00.624 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1219s
+2026-04-22 16:56:01.501 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:56:02.579 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 2 | Q: [False, True, False, False, False, False, False, False]
+2026-04-22 16:56:02.704 | WARNING  | runtime.plc:run:220 - Scan over time: 0.1245s
+2026-04-22 16:56:03.520 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:56:04.529 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:56:05.533 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:56:06.518 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 3 | Q: [False, False, True, False, False, False, False, False]
+2026-04-22 16:56:07.539 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:56:08.524 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:56:08.585 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0614s
+2026-04-22 16:56:09.525 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:56:10.523 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 4 | Q: [False, False, False, True, True, False, False, False]
+2026-04-22 16:56:10.615 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0917s
+2026-04-22 16:56:11.543 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:56:12.544 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:56:13.504 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:56:13.597 | WARNING  | runtime.plc:run:220 - Scan over time: 0.0937s
+2026-04-22 16:56:14.543 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:56:15.561 | INFO     | blocks.functionsBlocks.fb_uniCycle_PSA:debug:116 - Step: 1 | Q: [True, False, False, False, False, False, False, False]
+2026-04-22 16:56:16.121 | INFO     | runtime.memory.retain:save:81 - Retain memory saved
+2026-04-22 16:56:16.154 | INFO     | runtime.io.modbusMain:stop:136 - Modbus I/O thread stopped
+2026-04-22 16:56:16.154 | INFO     | runtime.plc:stop:111 - PLC STOP

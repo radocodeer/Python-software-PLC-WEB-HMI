@@ -1,0 +1,8 @@
+main = main.py (MAIN)
+
+firmware plc = runtime.plc.py
+
+tags = runtime.memory.GlobalTags.py (structure - runtime.memory.tags.py)
+
+hmi handling = hmi.hmi.py
+

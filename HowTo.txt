@@ -1,0 +1,18 @@
+1. -    copy PythonPLC_Core
+            rename → e.g. - "PLC_Python_Project_1"
+
+
+2. (CMD) -    cd C:\Code_R\PLC_Python_Project_1
+
+3. (CMD) -    python -m venv venv
+
+4. (CMD) -    venv\Scripts\activate
+
+5. (CMD) -    pip install -r requirements.txt
+
+6. -    Then edit only:
+            blocks/
+            io/
+            OB1 logic
+            HMI screens
+

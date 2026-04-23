@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<style>
+body {
+    margin:0;
+    font-family:"Inter","Segoe UI",Roboto;
+    background:#0a0f1c;
+    color:#e4e9ff;
+}
+
+h2 {
+    margin:0;
+    padding:20px;
+    background:linear-gradient(90deg,#162342,#0a0f1c);
+    border-bottom:1px solid #1b2b55;
+}
+
+.panel {
+    background:#121a2e;
+    border:1px solid #1e2e5a;
+    border-radius:14px;
+    padding:18px;
+    margin:14px;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+@media(max-width:900px){
+    .grid{grid-template-columns:1fr;}
+}
+
+button {
+    background:#1e2c4d;
+    border:1px solid #2f437c;
+    color:white;
+    padding:10px 16px;
+    margin:5px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+input {
+    color: white;
+}
+
+/* =========================
+PLC BUTTON BAR
+========================= */
+
+.plcButtonBar {
+    display:flex;
+    gap:12px;
+    padding:10px 0;
+}
+
+/* =========================
+BASE BUTTON (SIEMENS STYLE)
+========================= */
+
+.plcBtn {
+    position:relative;
+    padding:12px 22px;
+    border-radius:10px;
+    border:1px solid #2b3f73;
+    background:linear-gradient(145deg,#1a2747,#101a33);
+    color:#dbe6ff;
+    font-weight:700;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    transition:all 0.15s ease-in-out;
+    box-shadow:
+        0 4px 10px rgba(0,0,0,0.35),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* hover = industrial glow */
+.plcBtn:hover {
+    transform:translateY(-2px);
+    box-shadow:
+        0 6px 14px rgba(0,0,0,0.45),
+        0 0 10px rgba(90,140,255,0.15);
+}
+
+/* click feel like physical button */
+.plcBtn:active {
+    transform:translateY(1px);
+    box-shadow:
+        inset 0 3px 8px rgba(0,0,0,0.6);
+}
+
+/* =========================
+START (GREEN - RUN)
+========================= */
+
+.plcBtn.start {
+    border-color:#2ecc71;
+    color:#2ecc71;
+}
+
+.plcBtn.start:hover {
+    box-shadow:
+        0 6px 14px rgba(0,0,0,0.45),
+        0 0 14px rgba(46,204,113,0.25);
+}
+
+/* =========================
+STOP (RED - SAFE STOP)
+========================= */
+
+.plcBtn.stop {
+    border-color:#ff5c5c;
+    color:#ff5c5c;
+}
+
+.plcBtn.stop:hover {
+    box-shadow:
+        0 6px 14px rgba(0,0,0,0.45),
+        0 0 14px rgba(255,92,92,0.25);
+}
+
+/* =========================
+FAULT (YELLOW WARNING)
+========================= */
+
+.plcBtn.fail {
+    border-color:#ffd93b;
+    color:#ffd93b;
+}
+
+.plcBtn.fail:hover {
+    box-shadow:
+        0 6px 14px rgba(0,0,0,0.45),
+        0 0 14px rgba(255,217,59,0.25);
+}
+
+/* =========================
+ACTIVE STATE (optional PLC feedback)
+========================= */
+
+.plcBtn.active {
+    background:linear-gradient(145deg,#243a6a,#162342);
+    box-shadow:
+        inset 0 0 12px rgba(0,0,0,0.6),
+        0 0 16px rgba(120,170,255,0.2);
+}
+
+.statusBadge {
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:18px;
+    font-weight:700;
+    font-size:26px;
+}
+
+.statusRUN { background:#173d2a; border:1px solid #2ecc71; color:#2ecc71; }
+.statusSTOP { background:#3c1c1c; border:1px solid #ff5c5c; color:#ff5c5c; }
+.statusFAIL { background:#3a3212; border:1px solid #ffd93b; color:#ffd93b; }
+.statusWARMUP { background:#3a3212; border:1px solid #f15619; color:#f15416; }
+
+.stateField {
+    display:inline-block;
+    margin:0;
+    padding:0 12px 0 0;
+    font-size:22px;
+    color:#7f8fb8;
+}
+.tagChip {
+    display:inline-block;
+    padding:6px 12px;
+    margin:6px;
+    border-radius:18px;
+    background:#141f3d;
+    border:1px solid #2f437c;
+}
+
+.tagTrue { border-color:#2ecc71; color:#2ecc71; }
+.tagFalse { border-color:#5f6c8d; color:#7f8fb8; }
+.tagNumber { border-color:#4fa3ff; color:#4fa3ff; }
+
+pre {
+    background:#091326;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #1e2e5a;
+    max-height:260px;
+    overflow:auto;
+}
+</style>
+</head>
+
+<body>
+
+<h2>⚙ Python Software PLC HMI</h2>
+
+<div class="grid">
+
+<div class="panel">
+<h3>Software PLC Runtime</h3>
+
+<div class="plcButtonBar">
+
+    <button class="plcBtn start" onclick="StartPLC()">
+        ▶ START
+    </button>
+
+    <button class="plcBtn stop" onclick="StopPLC()">
+        ■ STOP
+    </button>
+
+    <button class="plcBtn fail" onclick="SimFailPLC()">
+        ⚠ FAULT
+    </button>
+
+</div>
+
+<br><br>
+
+<div>
+    <h1 class="stateField">STATE:</h1>
+    <span id="stateBadge" class="statusBadge">INIT</span>
+</div>
+
+
+</div>
+
+<div class="panel">
+<h3>Live Tags</h3>
+<pre id="tags"></pre>
+</div>
+
+</div>
+
+<div class="panel">
+<h3>Process Control</h3>
+
+<button onclick="startStopMotor(1)">Start Motor 1</button>
+<div class="tagChip" data-tag="motor1.motor_start" data-color-tag="motor1.motor_start"></div>
+
+<button onclick="StopStartMotor(1)">Stop Motor 1</button>
+<div class="tagChip" data-tag="motor1.motor_stop" data-color-tag="motor1.motor_stop"></div>
+
+<br>
+
+<button onclick="SetValue('motor1.counter',0)">Reset Counter</button>
+<div class="tagChip" data-tag="motor1.counter"></div>
+
+<hr>
+
+<button onclick="startStopMotor(2)">Start Motor 2</button>
+<div class="tagChip" data-tag="motor2.motor_start" data-color-tag="motor2.motor_start"></div>
+
+<button onclick="StopStartMotor(2)">Stop Motor 2</button>
+<div class="tagChip" data-tag="motor2.motor_stop" data-color-tag="motor2.motor_stop"></div>
+
+<br>
+
+<button onclick="SetValue('motor2.counter',0)">Reset Counter</button>
+<div class="tagChip" data-tag="motor2.counter"></div>
+
+<hr>
+
+<button onclick="SetResetToggleBool('furnace.startstop','toggle')">Toggle Furnace</button>
+<div class="tagChip" data-tag="furnace.startstop" data-color-tag="furnace.startstop"></div>
+
+<hr>
+
+<button onclick="SetResetToggleBool('sim.enable','toggle')">Toggle SIM</button>
+<div class="tagChip" data-tag="sim.enable" data-color-tag="sim.enable"></div>
+
+<button onclick="SetValue('sim.pressure',0)">Reset pressure</button>
+<div class="tagChip" data-tag="sim.pressure"></div>
+
+<h3>PSA</h3>
+
+<button onclick="SetResetToggleBool('psa.enable','toggle')">PSA Enable</button>
+<div class="tagChip" data-tag="psa.enable" data-color-tag="psa.enable"></div>
+<div class="tagChip" data-tag="psa.intSeqCounter"></div>
+
+<hr>
+
+<div class="tagChip" data-tag="io.q1_0" data-color-tag="io.q1_0"></div>
+<div class="tagChip" data-tag="io.q1_1" data-color-tag="io.q1_1"></div>
+<div class="tagChip" data-tag="io.q1_2" data-color-tag="io.q1_2"></div>
+<div class="tagChip" data-tag="io.q1_3" data-color-tag="io.q1_3"></div>
+<div class="tagChip" data-tag="io.q1_4" data-color-tag="io.q1_4"></div>
+<div class="tagChip" data-tag="io.q1_5" data-color-tag="io.q1_5"></div>
+<div class="tagChip" data-tag="io.q1_6" data-color-tag="io.q1_6"></div>
+<div class="tagChip" data-tag="io.q1_7" data-color-tag="io.q1_7"></div>
+
+<h3>Analog</h3>
+
+<div class="tagChip" data-tag="io.Ainputs_word"></div>
+
+<input class="tagChip" type="number" background-color="white" id="in1" value="0" step="1">
+<button onclick="SetValue('io.Aoutputs_word', parseInt(in1.value, 10))">set analog</button>
+<div class="tagChip" data-tag="io.Aoutputs_word"></div>
+
+</div>
+
+<script>
+
+/* =========================
+STATE
+========================= */
+
+let plcData = { tags:{}, state:"INIT" };
+
+/* =========================
+INIT FIX (IMPORTANT)
+========================= */
+
+window.onload = () => {
+    refreshUI();
+    fetchInitialState();
+};
+
+/* =========================
+WS
+========================= */
+
+const ws = new WebSocket("ws://localhost:8000/ws");
+
+ws.onopen = () => {
+    console.log("WS connected");
+
+    ws.send(JSON.stringify({
+        type: "INIT_REQUEST"
+    }));
+};
+
+ws.onmessage = (msg) => {
+    const data = JSON.parse(msg.data);
+
+    plcData.tags = data.tags || {};
+    plcData.state = data.state;
+
+    document.getElementById("tags").innerText =
+        JSON.stringify(plcData.tags, null, 2);
+
+    refreshUI();
+};
+
+/* =========================
+HTTP INITIAL STATE (CRITICAL FIX)
+========================= */
+
+function fetchInitialState(){
+    fetch("http://localhost:8000/state")
+        .then(r => r.json())
+        .then(data => {
+            plcData.tags = data.tags || {};
+            plcData.state = data.state || "INIT";
+            refreshUI();
+        })
+        .catch(err => console.log("No initial state:", err));
+}
+
+/* =========================
+UI
+========================= */
+
+function refreshUI(){
+    updateBindings();
+    updateColors();
+    updatePLCState();
+}
+
+/* =========================
+BINDINGS FIXED
+========================= */
+
+function updateBindings(){
+    document.querySelectorAll("[data-tag]").forEach(el=>{
+        const value = getValueByPath(plcData.tags, el.dataset.tag);
+        el.innerText = value ?? 0;   // 🔥 FIX: no undefined freeze
+    });
+}
+
+/* =========================
+COLORS
+========================= */
+
+function updateColors(){
+    document.querySelectorAll("[data-color-tag]").forEach(el=>{
+        const value = getValueByPath(plcData.tags, el.dataset.colorTag);
+
+        el.classList.remove("tagTrue","tagFalse","tagNumber");
+
+        if(typeof value === "boolean"){
+            el.classList.add(value ? "tagTrue" : "tagFalse");
+        }
+
+        if(typeof value === "number"){
+            el.classList.add("tagNumber");
+        }
+    });
+}
+
+/* =========================
+PLC STATE
+========================= */
+
+function updatePLCState(){
+    const badge = document.getElementById("stateBadge");
+
+    badge.className = "statusBadge";
+
+    if(plcData.state === "RUN"){
+        badge.classList.add("statusRUN");
+        badge.innerText = "RUNNING";
+    }
+    else if(plcData.state === "STOP"){
+        badge.classList.add("statusSTOP");
+        badge.innerText = "STOPPED";
+    }
+    else if(plcData.state === "FAULT"){
+        badge.classList.add("statusFAIL");
+        badge.innerText = "FAULT";
+    }
+    else if(plcData.state === "WARMUP"){
+        badge.classList.add("statusWARMUP");
+        badge.innerText = "WARMUP";
+    }
+    else {
+        badge.innerText = "UNKNOWN";
+    }
+}
+
+/* =========================
+UTIL
+========================= */
+
+function getValueByPath(obj, path){
+    return path.split('.').reduce((a,k)=>a?.[k], obj);
+}
+
+/* =========================
+COMMANDS
+========================= */
+
+function StartPLC(){
+    fetch("http://localhost:8000/plcstate/start",{method:"POST"});
+}
+
+function StopPLC(){
+    fetch("http://localhost:8000/plcstate/stop",{method:"POST"});
+}
+
+function SimFailPLC(){
+    fetch("http://localhost:8000/plcstate/simfail",{method:"POST"});
+}
+
+function SetResetToggleBool(path,cmd){
+    let next;
+    if(cmd==="set") next=true;
+    else if(cmd==="reset") next=false;    
+    else if(cmd==="toggle")
+        next=getValueByPath(plcData.tags,path) ?? false;
+    fetch("http://localhost:8000/plc/command",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({cmd,path,value:next})
+    });
+}
+
+function SetValue(path,value){       
+    fetch("http://localhost:8000/plc/setvalue",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({path,value})
+    });
+}
+
+function startStopMotor(i){
+    SetResetToggleBool(`motor${i}.motor_start`,"set");
+    SetResetToggleBool(`motor${i}.motor_stop`,"resetbool");
+}
+
+function StopStartMotor(i){
+    SetResetToggleBool(`motor${i}.motor_stop`,"set");
+    SetResetToggleBool(`motor${i}.motor_start`,"resetbool");
+}
+
+</script>
+
+</body>
+</html>
